@@ -1,0 +1,16 @@
+h1{
+    font-size: 2.4em;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #333;
+}
+.iphone{
+    width: 423px;
+    height: 817px;
+    background: #f8f8f8;
+    position: relative;
+    box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    border:5px solid #d9dbdc;
+    padding: 13px;
+    border-radius: 50%;
+    margin: 30px auto;}
