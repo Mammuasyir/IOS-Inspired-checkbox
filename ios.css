@@ -13,4 +13,61 @@ h1{
     border:5px solid #d9dbdc;
     padding: 13px;
     border-radius: 50%;
-    margin: 30px auto;}
+    margin: 30px auto;
+    position: relative;
+}
+.iphone-top {
+    padding: 5px 110px 40px;
+    position: relative;
+}
+.iphone-top .speaker{
+    display: block;
+    width: 70px;
+    height: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    background: #292728;
+}
+.iphone-top .camera {
+    display: block;
+    margin: 0 auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+    background: #333;
+}
+.iphone-top .sensor{
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: -5px;
+    border-radius: 50%;
+    background: #333;
+    float: left;
+}
+.top-bar, .bottom-bar{
+    display: block;
+    width: 423px;
+    height: 15px;
+    border-left: 5px solid #bbb;
+    border-right: 5px solid #bbb;
+    position: absolute;
+    left: -5px;
+}
+.top-bar{
+    top: 65px;
+}
+.bottom-bar{
+    bottom: 65px;
+}
+.iphone-screen{
+    background: #eee;
+    padding: 30px 0;
+    border: 1px solid #fff;
+    height: 617px;
+    width: 375px;
+    margin: 0 auto;
+    border: 2px solid rgba(0, 0, 0, 0.9);
+    border-radius: 3px;
+}
