@@ -71,3 +71,56 @@ h1{
     border: 2px solid rgba(0, 0, 0, 0.9);
     border-radius: 3px;
 }
+.button .on-off, .button .up, .button .down, .button .sleep{
+    display: block;
+    border-radius: 2px 0px 0px 2px;
+    background: #ccc;
+    position: absolute;
+}
+.button .on-off{
+    width: 3px;
+    height: 40px;
+    top: 100px;
+    left: -8px;
+}
+.button .up, .button .down, .button .sleep{
+    width: 5px;
+    height: 60px;
+    left: -10px;
+}
+.button .up{
+    top: 170px;
+}
+.button .down{
+    top: 250px;
+}
+.button .sleep{
+    top: 170px;
+    left: auto;
+    right: -10px;
+    border-radius: 0px 2px 2px 0px;
+}
+.iphone-bottom{
+    padding: 10px 0 0;
+}
+.iphone-bottom span{
+    display: block;
+    margin: 0 auto;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #ccc;
+    position: relative;
+    background: linear-gradient(135deg, #303233 0%, #b5b7b9 50%, #f0f2f2 69%, #302233 100%);
+}
+.iphone-bottom span::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
